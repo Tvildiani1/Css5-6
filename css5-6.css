@@ -1,0 +1,582 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.headerBox {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 22px 208px;
+}
+
+.blackColor {
+    color: #000;
+}
+
+.whiteColor {
+    color: #fff;
+}
+
+.brandingP {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.brandingDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.headerTwo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.productDiv {
+    color: #535862;
+    font-size: 16px;
+}
+.productDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.princingDiv {
+    color: #535862;
+    font-size: 16px;
+}
+
+.headerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 214px;
+
+}
+
+.buttonDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.loginButton {
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    padding: 10px 14px;
+}
+
+.signButton {
+    border-radius: var(--radius-md, 8px) ;
+    background: #7F56D9;
+    padding: 10px 14px;
+}
+
+.oneMain {
+    display: flex;
+    width: 1024px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.oneTop {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 16px;
+
+}
+.oneButton {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 12px 8px 8px;
+    width: 371px;
+    margin: 0 auto;
+
+}
+
+.oneButton {
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+
+.centerDiv {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 6px;
+    border-radius: var(--radius-sm, 6px);
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+
+.centerDivcheck {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.beatifulDiv {
+    color: #181D27;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.oneBottom {
+    display: flex;
+}
+
+.onebottomP {
+    color: #535862;
+    font-size: 20px;
+    text-align: center;
+    width: 766px;
+
+}
+
+.bottomDiv {
+    width: 257px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 60px;
+}
+
+.demoDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 24px;
+    width: 131px;
+}
+
+.demoDiv {
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+
+.signDiv {
+    border-radius: var(--radius-lg, 10px);
+    background: #7F56D9;
+    padding: 16px 24px;
+    width: 114px;
+    
+}
+
+/* twooo */
+
+.twoMain {
+    width: 1024px;
+    height: 561px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+
+.phonePhoto {
+    display: flex;
+    justify-content: center;
+    
+}
+.phoneDiv {
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+}
+
+.dashoardDiv {
+    border-radius: var(--radius-lg, 10px);
+    border: 4px solid var(--Component-colors-Components-Mockups-screen-mockup-border, #181D27);
+}
+
+.dashoardDiv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+
+
+/* twooo */
+
+
+.threeMain {
+    display: flex;
+    width: 1024px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 24px;
+    
+}
+
+.featureDiv {
+    color: #6941C6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.analyticsDiv {
+
+    color: #181D27;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.powerfulDiv {
+    color: #535862;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.threebottom {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.bottomOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 320px;
+    padding: 12px 24px;
+}
+
+.bottomTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.messagelogoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #E9EAEB;
+    border-radius: 10px;
+}
+.messageLogo {
+    background: #FFF;
+    width: 24px;
+    height: 24px; 
+    
+}
+.shareP {
+    color: #181d27;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.whetherP {
+    color: #535862;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.fourMain {
+    display: flex;
+    width: 1024px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.upgradeDiv {
+    color: #7f56d9;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.princingDiv {
+    color: #181d27;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.transparentDiv {
+    color: #535862;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.fourBottom {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.bottomFour {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 496px;
+}
+
+.bottomFour {
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+
+.fourBasic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 32px 32px 0px 32px;
+    margin: 0 auto;
+}
+
+.LogoDiv {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: var(--radius-full, 9999px);
+    background: #F4EBFF;
+}
+
+.logoSvg {
+    width: 24px;
+    height: 24px;
+    background: #F4EBFF;
+
+}
+
+.basicDiv {
+    color: #6941c6;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dollarDiv {
+    color: #181d27;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.billedDiv {
+    color: #535862;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.accessDiv {
+    display: flex;
+    padding: 32px 32px 40px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 492px;
+}
+
+.accessBasic {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.accessP {
+    color: #535962;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buttonBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    width: 492px;
+    border-top: 1px solid #E9EAEB;
+    background: #FAFAFA;
+}
+
+.getstartButton {
+    width: 432px;
+    border-radius: var(--radius-md, 8px);
+    background: #7F56D9;
+    color: #fff;
+    height: 48px;
+    padding: 12px 18px;
+}
+.fiveMain {
+    display: flex;
+    align-items: center;
+    width: 1024px;
+    height: 566px;
+    margin: 0 auto;
+    border-radius: var(--radius-none, 0px);
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+
+  
+}
+
+
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 544px;
+    height: 566px;
+    background: #53389E;
+    padding: 64px;
+    border-radius: 24px;
+    background: #53389E;
+}
+
+.starBox {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    
+
+}
+
+.starBox {
+    background: #53389E;
+}
+
+.starSvg {
+    background: #53389E;
+}
+
+.conectOne {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 416px;
+
+    background: #53389E;
+}
+
+.conectLove {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    background: #53389E;
+}
+
+.reneeBox {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background: #53389E;
+}
+
+.twoConect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    background: #53389E;
+}
+
+.productDesigner {
+    color: #e9d7fe;
+    font-size: 16px;
+    font-weight: 400;
+    background: #53389E;
+}
+
+.conectEnd {
+    background: #53389E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 62px;
+    height: 10px;
+}
+
+.whiteball {
+    border-radius: var(--radius-full, 9999px);
+    background: #FFF;
+    width: 10px;
+    height: 10px;
+}
+
+.purpleball {
+    border-radius: var(--radius-full, 9999px);
+    background: #9E77ED;
+    width: 10px;
+    height: 10px;
+}
+
+footer {
+    display: flex;
+    padding: 24px 208px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 109px;
+}
+
+.footerEnd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    color: #535862;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.untitledDiv {
+    color: #717680;
+    font-size: 16px;
+    font-weight: 400;
+
+}
